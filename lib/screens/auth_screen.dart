@@ -115,9 +115,9 @@ class _AuthCardState extends State<AuthCard>
         milliseconds: 300,
       ),
     );
-    var duoble;
+   
     _heightAnimation = Tween<Size>(
-            begin: Size(duoble.infinity, 260), end: Size(double.infinity, 320))
+            begin: Size(double.infinity, 260), end: Size(double.infinity, 320))
         .animate(
       CurvedAnimation(parent: _controller, curve: Curves.linear),
     );
